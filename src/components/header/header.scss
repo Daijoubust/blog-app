@@ -1,0 +1,32 @@
+nav {
+    @apply flex flex-row bg-gray-100 text-black p-3 md:px-40 justify-center items-center w-screen shadow-xl z-50;
+    .logo {
+        @apply flex flex-row items-center;
+        img {
+            @apply w-10 h-10;
+        }
+        h1 {
+            @apply text-2xl font-bold ml-2;
+        }
+    }
+    .nav-container {
+        @apply flex flex-row justify-between w-full items-center;
+        ul {
+            @apply flex flex-row space-x-5 px-4;
+            li {
+                Link {
+                    @apply text-black text-sm hover:text-gray-500;
+                }
+            }
+        }
+    }
+    .theme-container {
+        @apply flex items-center justify-center;
+        span {
+            @apply text-sm font-semibold ml-2 select-none;
+        }
+        .icon {
+            @apply text-2xl cursor-pointer;
+        }
+    }
+}

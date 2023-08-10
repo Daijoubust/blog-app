@@ -1,0 +1,28 @@
+.dark {
+    @apply bg-black text-white;
+    .page-container {
+        @apply bg-zinc-900
+    }
+    nav {
+        @apply bg-black text-gray-100;
+    }
+    li {
+        Link {
+            @apply hover:text-gray-300 text-white;
+        }
+    }
+    .card {
+        @apply bg-black
+    }
+}
+
+.page-container {
+    @apply h-screen w-screen flex flex-col items-center;
+    img {
+        @apply w-96 h-96;
+    }
+}
+
+.app {
+    @apply flex flex-col items-center w-full min-h-screen;
+}

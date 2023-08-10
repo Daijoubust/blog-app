@@ -1,0 +1,9 @@
+.blog-container {
+    @apply flex flex-col justify-center items-center;
+    img {
+        @apply w-96
+    }
+    .blog-detail {
+        @apply flex flex-col justify-center items-center md:mx-40 p-10;
+    }
+}
